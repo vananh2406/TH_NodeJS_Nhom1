@@ -1,0 +1,30 @@
+{
+  "name": "bth1",
+  "version": "1.0.0",
+  "description": "backend Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node --inspect src/index.js"
+  },
+  "author": "2000026_NguyenThiVanAnh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vananh2406/vananh2000026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vananh2406/vananh2000026/issues"
+  },
+  "homepage": "https://github.com/vananh2406/vananh2000026#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.7",
+    "nodemon": "^3.0.1"
+  }
+}
